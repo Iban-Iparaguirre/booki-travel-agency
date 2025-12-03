@@ -83,11 +83,65 @@ header {
     padding-top: 11px;
     color:black;
     border-top: 3px solid transparent;
+    transition:border-color 200ms ease-in-out;
     padding-bottom: 7px;
 }
 .menu-item:hover {
     color:#0065FC;
     border-top-color: #0065FC;
+}
+
+
+/****** SECTION RECHERCHER ******/
+
+.search {
+    display: flex;
+    height: 49px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.search-pin {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-right: none;
+}
+
+.pin {
+    color: #000000
+}
+
+.location {
+    border: none;
+    background: white;
+    font-size: 18px;
+    color: #111;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+}
+
+.location::placeholder {
+    color: #000000;
+    font-weight: bold;
+}
+
+.search-button {
+    height: 50px;
+    padding: 0 16px;
+    border: none;
+    border-radius: 0 12px 12px 0;
+    background-color: #0065FC;
+    text-align: center;
+    color: #F2F2F2;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 /****** Hebergements And Populaires ***********/
