@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div class="main-container">
         
         <header>
-            <img src="images/logo/Booki.png" class="logo">
+            <img src="images/logo/Booki.png" class="logo" alt="Logo Booki">
             
             <nav class="menu">
-                <a class="menu-item" href="">Hébergements</a>
-                <a class="menu-item" href="">Activités</a>
+                <a class="menu-item" href="#hebergements">Hébergements</a>
+                <a class="menu-item" href="#activites">Activités</a>
             </nav>
         </header>
 
@@ -31,11 +31,11 @@
                 <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                 <p>En plein centre-ville ou en pleine nature</p>
 
-                <form action="" method="get" class="search">
+                <form method="get" class="search" action="#">
                     <div class="search-pin">
                         <i class="fa-solid fa-location-dot pin" ></i>
                     </div>
-                    <input class="location" type="text" name="search" placeholder="Marseille, France" aria-label="Lieu" />
+                    <input class="location" type="text" name="search" placeholder="Marseille, France" aria-label="Lieu">
                     <button class="search-button">
                         Rechercher
                         <i class="fa-solid fa-magnifying-glass"></i>
@@ -72,7 +72,7 @@
             </section>
 
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
                         <article class="card">
@@ -252,7 +252,7 @@
             <section>
                 <br>
                 <h2>Activités à Marseille</h2>
-                <div class="activites">
+                <div class="activites" id="activites">
                     <article class="activites-cards">
                         <img src="images/activites/reno-laithienne.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                         <div class="card-content">
