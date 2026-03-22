@@ -329,6 +329,10 @@ header {
     gap: 30px;
 }
 
+.activites a {
+    flex: 1;
+}
+
 .activites-cards {
     flex: 1;
     border-radius: 20px;
